@@ -1,0 +1,28 @@
+{
+  "name": "SiteSettings",
+  "type": "object",
+  "properties": {
+    "display_name": {
+      "type": "string",
+      "default": "TG Habib"
+    },
+    "tagline": {
+      "type": "string",
+      "default": "Selfmade Developer & Vibecoder"
+    },
+    "bio": {
+      "type": "string",
+      "description": "About section bio text"
+    },
+    "github_url": {
+      "type": "string"
+    },
+    "telegram_url": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    }
+  },
+  "required": []
+}

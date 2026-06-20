@@ -1,0 +1,38 @@
+{
+  "name": "Post",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Post title"
+    },
+    "body": {
+      "type": "string",
+      "description": "Post body text"
+    },
+    "mood": {
+      "type": "string",
+      "enum": [
+        "update",
+        "project",
+        "thought",
+        "announcement"
+      ],
+      "default": "update",
+      "description": "Post mood tag"
+    },
+    "published": {
+      "type": "boolean",
+      "default": false,
+      "description": "Published status"
+    },
+    "media_url": {
+      "type": "string",
+      "description": "Attached media URL"
+    }
+  },
+  "required": [
+    "title",
+    "body"
+  ]
+}
